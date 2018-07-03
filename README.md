@@ -35,3 +35,12 @@
 `特别注意`<br>
 1 v3版本的 .proto文件编写和v2版本编写略有不同
 
+## 在项目的使用
+> <li> 1.maven 项目 ,依赖  
+     <dependency>
+       <groupId>com.google.protobuf</groupId>
+       <artifactId>protobuf-java</artifactId>
+       <version>3.5.1</version>
+     </dependency>
+> <li> 2.普通项目,添加lib目录下的包即可
+
