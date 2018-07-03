@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package com.demo.v3.test;
+option java_package = "com.demo.v3.test";
+
+message StepInfo{
+ int64 StepNo=1;
+ string StepName=2;
+ int32 StepStatus=3;
+ string Reason=4;
+ string StartTime=5;
+ string EndTime=6;
+}
+
+
+message TaskExecutorStep{
+ string StationID=1;
+ string TimeTag=2;
+ string AntennaID=3;
+ string AntennaName=4;
+ string scheduleID=5;
+ string jobTaskID=6;
+ string SatelliteName=7;
+ int32 SatDataBand=8;
+ repeated  StepInfo Steps =9;
+
+}
