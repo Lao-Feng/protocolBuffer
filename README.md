@@ -23,11 +23,11 @@
 <br>
 
 
-## v3使用方法
+## v3使用方法 (非中文路径)
 > <li> 1.在v3中没有 `protocv2.exe` 类似工具,(目前还没有做好),感兴趣的,可以自己看看 
 [编译教程](https://blog.csdn.net/blackbattery/article/details/78250119?locationNum=6&fps=1) 
 
-> <li> 2. 解压resources/Csharp.zip
+> <li> 2. 解压resources/Csharp.zip 到  非中文路径
 > <li> 3. 将所需的 .proto文件放入 /proto3 目录下
 > <li> 4. 执行 /GenerateAll-3.bat 文件,即可在 /GenerateJAVA 目录下生成所需的文件
 > <li> 5. 测试代码参考 com.demo.v3.server.Server 以及 com.demo.v3.client.Client
